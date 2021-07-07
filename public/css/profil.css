@@ -1,0 +1,325 @@
+body{
+  background-color:white;
+}
+
+nav{
+  background-color:#262626;
+  width: 100%;
+  height:75px;
+  position: fixed;
+  z-index: 9999;
+}
+
+nav ul{
+  width: 100%;
+  padding-left: 4%;
+  padding-top: 2%;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav li{
+  list-style:none;
+  padding-left: 5%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:cyan;
+}
+
+ul, .sign-out{
+  display: inline-block;
+}
+
+.no-padding > [class*='col-'] {
+padding-right:0;
+padding-left:0;
+}
+
+.container{
+  padding-top: 7%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight:bold;
+  color:#262626;
+  position: fixed;
+  padding-bottom: 3%;
+}
+
+.profile{
+  width:20%;
+  height:400px;
+  background-color:white;
+  border:1px solid black;
+  border-radius:5px;
+  position: absolute;
+  margin-top:4%;
+  position: fixed;
+}
+
+.profile-img{
+  padding-left: 3%;
+  padding-top: 4%;
+}
+
+.profile-img img{
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+}
+
+.profile-container{
+  display: flex;
+}
+
+.container-names{
+  padding-left: 5%;
+  padding-top: 7%;
+}
+
+.name-profile, .surname-profile, .username-profile{
+  padding-top: 5%;
+}
+
+.pseudo-profile{
+  padding-left: 8%;
+  padding-top: 8%;
+}
+
+.date-naissance{
+  padding-left: 5%;
+}
+
+.date-naissance, .age{
+  display: inline-block;
+}
+
+.all-followers-contain{
+  display: flex;
+  padding-left: 7%;
+  padding-top: 10%;
+}
+
+.follow-contain{
+  width: 120px;
+  height: 25px;
+  background-color:white;
+  border-radius:15px;
+  border:1px solid black;
+  margin-right:2%;
+}
+
+.follow-contain:hover{
+  border:1px solid white;
+  background-color:#262626;
+}
+
+.follow{
+}
+
+.follow a{
+  text-decoration:none;
+  color:black;
+  padding-left:8%;
+}
+
+.follow:hover a{
+  color:white;
+}
+
+.followers-contain{
+  width: 120px;
+  height: 25px;
+  background-color:white;
+  border-radius:15px;
+  border:1px solid black;
+}
+
+.followers-contain:hover{
+  border:1px solid white;
+  background-color:#262626;
+}
+
+.followers a{
+  text-decoration:none;
+  color:black;
+  padding-left:25%;
+}
+
+.followers:hover a{
+  color:white;
+}
+
+.bottom-profile{
+  padding-top:35%;
+  padding-left: 55%;
+}
+
+.btn-modify{
+  width: 100px;
+  height: 30px;
+  background-color:white;
+  border-radius:15px;
+  border:1px solid black;
+  padding-left: 15%;
+}
+
+.btn-modify:hover{
+  background-color:#262626;
+  color:white;
+}
+
+.btn-modify a{
+  color:black;
+  text-decoration:none;
+}
+
+.btn-modify:hover a{
+  color:white;
+}
+
+.col-8{
+  margin-left: 32%;
+  background-color:transparent;
+  margin-top:2%;
+  position: relative;
+}
+
+.names{
+  margin-left:5%;
+  margin-top: 1%;
+}
+
+.names a{
+  text-decoration: none;
+  color: black;
+}
+
+.pseudo{
+  color:black;
+}
+
+.pseudo:hover{
+  color:blue;
+}
+
+.username{
+  color:black;
+}
+
+.username:hover{
+  color:green;
+}
+
+.text-contain{
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.tweet:hover .pseudo{
+  color:white;
+  }
+
+  .tweet:hover .username{
+    color:white;
+  }
+
+  .tweet:hover .text-contain{
+    color:white;
+  }
+
+.tweet{
+  background-color:white;
+  width:90%;
+  height:auto;
+  border-radius:5px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  margin-bottom: 3%;
+}
+
+.tweet:hover{
+  background-color:#262626;
+}
+
+.tweet:hover i{
+  color:white;
+}
+
+.link-tweet{
+  display:flex;
+}
+
+.comment{
+  margin-left:15%;
+  margin-right: 20%;
+}
+
+.retweet, .like, .share{
+  margin-right: 20%;
+}
+
+.comment:hover{
+  color:blue;
+  background-color:silver;
+  border-radius:20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.retweet:hover{
+  color:green;
+  background-color:silver;
+  border-radius:20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.like:hover{
+  color:red;
+  background-color:silver;
+  border-radius:20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.share:hover{
+  color:blue;
+  background-color:silver;
+  border-radius:20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*@media only screen and (min-width:0px) and (max-width:767px){
+  body{
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:956px){
+  body{
+    background-color: blue;
+  }
+}
+@media only screen and (min-width:960px) and (max-width:1599px){
+  body{
+    background-color: green;
+  }
+}
+@media only screen and (min-width:1599px) and (max-width:2000px){
+  body{
+    background-color: purple;
+  }
+}*/

@@ -1,0 +1,181 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-color:white;
+}
+
+.Logo{
+  padding-top:3%;
+  padding-left: 35%;
+}
+
+.Logo img{
+  width:60px;
+  height:auto;
+}
+
+.Connexion-sentence{
+  font-size:30px;
+  font-family: Verdana, System;
+  font-weight:700;
+  color:black;
+  margin-left: 36%;
+  margin-top: 1%;
+}
+
+form{
+  margin-left: 36%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 350px;
+    height:60px;
+    padding: 12px 25px;
+    margin: 8px 0;
+    margin-top:1%;
+    border: 1px solid #75727F;
+    border-radius:5px;
+    background-color: #BCE6F5;
+    color: #595959;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+    background-color: black;
+    color: #595959;
+    border:1px solid #0d6efd;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: rgb(6,161,229);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: rgb(6,161,229);
+    border: 1px solid rgb(6,161,229);
+}
+
+.container-link{
+margin-left: 36%;
+margin-top: 1%;
+}
+
+.link-1, .Point, .link-2{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  font-size:11pt;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* input[type="email"]{
+  background-color:black;
+  border:1px solid black;
+  width:320px;
+  height:50px;
+  margin-left: 36%;
+  border:1px solid grey;
+}
+
+input[type="password"]{
+  background-color:black;
+  border:1px solid black;
+  width:320px;
+  height:50px;
+  margin-left: 36%;
+  border:1px solid grey;
+} */
+
+/*#######################################*/
+/*#####								#####*/
+/*				RESPONSIVE				 */
+/*#####								#####*/
+/*#######################################*/
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    /*body{
+        background-color:green;
+    }*/
+    .Logo{
+        padding-left: 32%;
+    }
+    .Connexion-sentence{
+        margin-left: 32%;
+    }
+
+    form{
+        margin-left: 32%;
+    }
+    .container-link{
+        margin-left: 32%;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 799px) {
+    /*body{
+        background-color:red;
+    }*/
+    .Logo{
+        padding-left: 26%;
+    }
+    .Connexion-sentence{
+        margin-left: 26%;
+    }
+
+    form{
+        margin-left: 26%;
+    }
+    .container-link{
+        margin-left: 26%;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 649px) {
+    /*body{
+        background-color:blue;
+    }*/
+
+    .Logo{
+        padding-left: 19%;
+    }
+    .Connexion-sentence{
+        margin-left: 19%;
+    }
+
+    form{
+        margin-left: 19%;
+    }
+    .container-link{
+        margin-left: 19%;
+    }
+}

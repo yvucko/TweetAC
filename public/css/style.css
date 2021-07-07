@@ -1,0 +1,181 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  width: 100%;
+  height:auto;
+  background-color:white;
+}
+
+.Home-left{
+  width:100%;
+  height:auto;
+  /* border: 1px solid white;
+  border-radius:5px */
+}
+
+.Home-picture img{
+width:100%;
+  height:720px;
+}
+
+.Home-right{
+  width:100%;
+  height:100%;
+  padding-left: 5%;
+
+}
+
+.Logo{
+  padding-top:20%;
+}
+
+.Logo img{
+  width:50px;
+  height:auto;
+}
+
+.Main-quote{
+  font-size:61px;
+  font-family: Chirp, Verdana, System;
+  font-weight:700;
+  color:black;
+}
+
+.Second-quote{
+  font-size:30px;
+  font-family: Chirp, Verdana, System;
+  font-weight:700;
+  color:black;
+  padding-bottom: 3%;
+}
+
+.btn{
+  border: 1px solid #4AC0E7;
+  border-radius: 25px;
+  color:white;
+}
+
+footer ul {
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 10px;
+  text-align: center;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: gray;
+  font-size:10pt;
+}
+
+footer li a:hover {
+  text-decoration: none;
+  text-decoration: underline;
+  color:gray
+}
+
+.Reserved {
+  color: gray;
+  font-size: 10pt;
+  font-family:'Open Sans Condensed', sans-serif ;
+  text-align: center;
+}
+
+
+/*#######################################*/
+/*#####								#####*/
+/*				RESPONSIVE				 */
+/*#####								#####*/
+/*#######################################*/
+
+
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+  /* body {
+  background-color:green;
+} */
+.btn {
+  width:400px;
+  height:50px;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  /* body {
+  background-color:red;
+} */
+.btn {
+  width:400px;
+  height:50px;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  /* body {
+  background-color:yellow;
+} */
+.btn {
+  width:350px;
+  height:50px;
+}
+.Home-left{
+  margin-top:50%;
+}
+.Home-picture img{
+  height:350px;
+}
+footer{
+  margin-top: 7%;
+}
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  /* body {
+  background-color:purple;
+} */
+.btn {
+  width:300px;
+  height:50px;
+}
+.Home-left{
+  margin-top:65%;
+}
+.Home-picture img{
+  height:300px;
+}
+.Main-quote{
+  font-size:40px;
+}
+footer{
+  margin-top: 7%;
+}
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+  /* body {
+  background-color:blue;
+} */
+.btn {
+  width:250px;
+  height:50px;
+}
+.Home-left{
+  margin-top:100%;
+}
+.Home-picture img{
+  height:200px;
+}
+.Main-quote{
+  font-size:40px;
+}
+footer{
+  margin-top: 9%;
+}
+}

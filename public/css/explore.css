@@ -1,0 +1,38 @@
+.img1{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.img2{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+footer{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+header div{
+display: flex;
+}
+
+.form{
+display: flex;
+width: 250px;
+padding: 20px;
+}
+footer div{
+width: 100px;
+height: 100px;
+}
+.row div{
+margin-left: 230px;;
+}
